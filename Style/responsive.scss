@@ -1,0 +1,114 @@
+.container{
+    @include responsive-to (large){
+       width: 200px;
+       img{
+        width: 200px;
+        height: 200px;
+        margin-left: -1px;
+       }
+    }
+}
+
+.Acceuil{
+    @include responsive-to (xlarge){
+        font-size: 12px;
+        h1{
+            font-size: 28px;
+        }
+    }
+    @include responsive-to (large){
+        font-size: 11px;
+        margin-left: 120px;
+        h1{
+            font-size: 20px;
+        }
+    }
+    @include responsive-to (medium){
+        text-align: center;
+        margin-left: -80px;
+    }
+}
+
+.propos{
+    @include responsive-to (xlarge){
+        font-size: 12px;
+    }
+    @include responsive-to (large){
+        font-size: 11px;
+        margin-left: -120px;
+        h1{
+           text-align: center;
+           margin-left: -80px;
+        }
+        h3{
+            text-align: center;
+            margin-left: -80px;
+        }
+        .logo1{
+            font-size: 40px;
+        }
+        .plus{
+            margin-left: 100px;
+        }
+    }
+    @include responsive-to (medium){
+        .logo1{
+            margin-left: 120px;
+        }
+    }
+}
+
+.co{
+    @include responsive-to (xlarge){
+        font-size: 12px;
+    }
+    @include responsive-to (large){
+        font-size: 11px;
+        margin-left: -130px;
+    }
+    @include responsive-to (medium){
+        .comp{
+           text-align: center;
+           margin-left: 50px;
+           .logo i{
+            width: 120px;
+            margin-left: 90px;
+            
+           }
+        }
+    }
+       
+}
+
+.logo i{
+    @include responsive-to(xlarge){
+      font-size: 15px;  
+      width: 200px;
+      margin-top: 50px;
+    }
+    @include responsive-to (large){
+        font-size: 12px;
+        width: 170px;
+        padding: 30px;
+    }
+}
+
+.monc{
+    @include responsive-to(large){
+        margin-left: -90px;
+    }
+}
+
+.Cont{
+    @include responsive-to(large){
+        margin-left: -90px;
+    }
+}
+
+
+
+
+
+
+
+

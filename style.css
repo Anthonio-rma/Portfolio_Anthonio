@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(24, 31, 80);
+}
+
+.container {
+  background: rgb(0, 0, 0);
+  width: 320px;
+  height: 1000px;
+  position: fixed;
+  margin-left: 20px;
+}
+.container img {
+  border-radius: 160px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.element {
+  list-style: none;
+  text-align: center;
+  margin: 40px;
+  line-height: 60px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.element li a {
+  text-decoration: none;
+  color: white;
+}
+
+.element :hover {
+  color: rgb(244, 127, 2);
+  text-decoration: underline;
+}
+
+.big {
+  border: rgb(24, 31, 80) solid;
+  margin-left: 330px;
+  height: 3000px;
+}
+
+.Acceuil {
+  text-align: justify;
+  margin-left: 200px;
+  margin-top: 250px;
+}
+.Acceuil p {
+  color: rgb(64, 211, 211);
+}
+.Acceuil h1 {
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0.8);
+}
+
+.propos {
+  margin-top: 250px;
+  border: rgb(24, 31, 80) solid;
+  height: 750px;
+}
+
+#Apropos {
+  background-color: rgb(94, 110, 105);
+}
+
+.plus {
+  padding: 30px;
+  margin-left: 150px;
+}
+.plus h3 {
+  line-height: 30px;
+  color: rgb(225, 225, 225);
+}
+.plus h1 {
+  text-decoration: underline;
+}
+
+.logo1 {
+  font-size: 60px;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+.logo1 i {
+  border: rgb(94, 110, 105) solid;
+  border-radius: 15px;
+  width: 70px;
+  color: rgb(255, 253, 246);
+  padding: 0.3rem;
+}
+
+.co {
+  border: rgb(24, 31, 80) solid;
+  height: 740px;
+}
+.co .comp {
+  margin-left: 180px;
+  color: white;
+}
+.co .comp h1 {
+  color: black;
+  text-decoration: underline;
+}
+
+#Competence {
+  background: linear-gradient(royalblue, black);
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: -150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+}
+.logo i {
+  border: rgb(255, 255, 255) solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 80px;
+  font-size: 25px;
+  padding: 1.5rem;
+  background-color: transparent;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+i:hover {
+  background: linear-gradient(white, rgb(198, 104, 15));
+  transition: 1s;
+  color: rgb(4, 4, 4);
+}
+
+.fa-facebook:hover {
+  color: white;
+  background: blue;
+}
+
+.fa-whatsapp:hover {
+  color: rgb(69, 183, 46);
+  background: black;
+}
+
+.fa-instagram:hover {
+  color: white;
+  background: linear-gradient(violet, red, yellow);
+}
+
+#Contact {
+  color: white;
+  height: 750px;
+  margin-left: 10px;
+}
+
+.monc h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.appell {
+  border: rgb(6, 6, 6) solid;
+  width: 400px;
+  height: 400px;
+  margin-left: 380px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0.8);
+}
+.appell input {
+  margin-left: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.appell p {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.appell button {
+  width: 350px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 15px;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 55, 147);
+}
+
+.Cont {
+  text-align: center;
+  margin-top: 100px;
+  line-height: 50px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 200px;
+  }
+  .container img {
+    width: 200px;
+    height: 200px;
+    margin-left: -1px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Acceuil {
+    font-size: 12px;
+  }
+  .Acceuil h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  .Acceuil {
+    font-size: 11px;
+    margin-left: 120px;
+  }
+  .Acceuil h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .Acceuil {
+    text-align: center;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .propos {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .propos {
+    font-size: 11px;
+    margin-left: -120px;
+  }
+  .propos h1 {
+    text-align: center;
+    margin-left: -80px;
+  }
+  .propos h3 {
+    text-align: center;
+    margin-left: -80px;
+  }
+  .propos .logo1 {
+    font-size: 40px;
+  }
+  .propos .plus {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .propos .logo1 {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .co {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .co {
+    font-size: 11px;
+    margin-left: -130px;
+  }
+}
+@media (max-width: 768px) {
+  .co .comp {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .co .comp .logo i {
+    width: 120px;
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo i {
+    font-size: 15px;
+    width: 200px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .logo i {
+    font-size: 12px;
+    width: 170px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .monc {
+    margin-left: -90px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Cont {
+    margin-left: -90px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

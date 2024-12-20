@@ -1,0 +1,33 @@
+.container{
+    background: rgb(0, 0, 0);
+    width: 320px;
+    height: 1000px;
+    position: fixed;
+    margin-left: 20px;
+    img{
+        border-radius: 160px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.element{
+    list-style: none;
+    text-align: center;
+    margin: 40px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.element :hover{
+    color: rgb(244, 127, 2);
+    text-decoration: underline;
+}
+
+
